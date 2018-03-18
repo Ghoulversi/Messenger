@@ -8,38 +8,11 @@
 
 import UIKit
 
-class Friend: NSObject {
-    
-    var name: String?
-    var profileImageName: String?
-}
-
-class Message: NSObject {
-    
-    var text: String?
-    var date: NSDate?
-    
-    var friend: Friend?
-}
 
 class FriendsController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     private let cellId = "cellId"
     var messages: [Message]?
-    
-    func setupData() {
-        
-        let mark = Friend()
-        mark.name = "Mark Zuckerberg"
-        mark.profileImageName = "mi"
-        
-        let message = Message()
-        message.friend = mark
-        message.text = "Hello, my name is mark. nice to meet you...."
-        message.date = NSDate()
-        
-        messages = [message]
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -128,7 +101,7 @@ class MessageCell: BaseCell {
     
     let timeLabel: UILabel = {
         let label = UILabel()
-        label.text = "12:05 pm"
+        label.text = "10:12 pm"
         label.font = UIFont.systemFont(ofSize: 16)
         label.textAlignment = .right
         return label

@@ -12,6 +12,7 @@
 		0DC6BFDC205C31D700966AF2 /* MessengerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6BFDA205C31D700966AF2 /* MessengerApp.xcdatamodeld */; };
 		0DC6BFDE205C31D700966AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC6BFDD205C31D700966AF2 /* Assets.xcassets */; };
 		0DC6BFE1205C31D700966AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC6BFDF205C31D700966AF2 /* LaunchScreen.storyboard */; };
+		85326B5C205EB56A00322204 /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85326B5B205EB56A00322204 /* FriendsControllerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0DC6BFDD205C31D700966AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DC6BFE0205C31D700966AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DC6BFE2205C31D700966AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85326B5B205EB56A00322204 /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0DC6BFD3205C31D700966AF2 /* AppDelegate.swift */,
 				0DC6BFD5205C31D700966AF2 /* ViewController.swift */,
+				85326B5B205EB56A00322204 /* FriendsControllerHelper.swift */,
 				0DC6BFDD205C31D700966AF2 /* Assets.xcassets */,
 				0DC6BFDF205C31D700966AF2 /* LaunchScreen.storyboard */,
 				0DC6BFE2205C31D700966AF2 /* Info.plist */,
@@ -138,6 +141,7 @@
 				0DC6BFD6205C31D700966AF2 /* ViewController.swift in Sources */,
 				0DC6BFDC205C31D700966AF2 /* MessengerApp.xcdatamodeld in Sources */,
 				0DC6BFD4205C31D700966AF2 /* AppDelegate.swift in Sources */,
+				85326B5C205EB56A00322204 /* FriendsControllerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
